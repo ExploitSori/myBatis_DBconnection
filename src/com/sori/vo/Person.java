@@ -1,4 +1,4 @@
-package com.hmkcode.vo;
+package com.sori.vo;
 
 public class Person  {
 
