@@ -14,7 +14,7 @@ public class MyBatisConnectionFactory {
     static {
         try {
  
-            String resource = "com/hmkcode/mybatis/config.xml";
+            String resource = "com/sori/mybatis/config.xml";
             Reader reader = Resources.getResourceAsReader(resource);
  
             if (sqlSessionFactory == null) {
