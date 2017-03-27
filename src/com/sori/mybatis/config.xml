@@ -5,7 +5,7 @@
  
 <configuration>
     <typeAliases>
-        <typeAlias alias="Person" type="com.hmkcode.vo.Person"/>        
+        <typeAlias alias="Person" type="com.sori.vo.Person"/>        
     </typeAliases>
  
     <environments default="development">
@@ -14,13 +14,13 @@
             <!--  connecting to Local MySql -->
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/hmkcode"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/sori"/>
                 <property name="username" value="root"/>
                 <property name="password" value="apmsetup"/>
             </dataSource>
        </environment>
     </environments>
     <mappers>
-       <mapper resource="com/hmkcode/mybatis/mapper/Person.xml"/>
+       <mapper resource="com/sori/mybatis/mapper/Person.xml"/>
     </mappers>
 </configuration>
