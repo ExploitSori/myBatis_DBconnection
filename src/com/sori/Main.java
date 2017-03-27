@@ -1,12 +1,12 @@
-package com.hmkcode;
+package com.sori;
 
 import java.util.List;
 
 
 
-import com.hmkcode.mybatis.MyBatisConnectionFactory;
-import com.hmkcode.dao.PersonDAO;
-import com.hmkcode.vo.Person;
+import com.sori.mybatis.MyBatisConnectionFactory;
+import com.sori.dao.PersonDAO;
+import com.sori.vo.Person;
 
 
 
