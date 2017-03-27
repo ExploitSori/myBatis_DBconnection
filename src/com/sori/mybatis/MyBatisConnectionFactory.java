@@ -1,4 +1,4 @@
-package com.hmkcode.mybatis;
+package com.sori.mybatis;
  
 import java.io.FileNotFoundException;
 import java.io.IOException;
